@@ -1,0 +1,3 @@
+#!/bin/sh
+tag=${1:-2}
+docker build --tag=iyuuya/aws2-ssh:"$tag" .
